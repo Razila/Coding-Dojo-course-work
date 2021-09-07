@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hideDiv {
+    text-align: center;
+}
+
+.hideDiv p {
+    color: red;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.hideDiv p:hover {
+    background: rgb(135, 135, 233);
+}
+
+#showHide {
+    text-align: center;
+}
+
+#showHide p {
+    background: #124942;
+    margin: 3px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+}
+
+#toggling {
+    text-align: center;
+}
+
+#slideUpSlideDown {
+    text-align: center;
+}
+
+#slideUpSlideDown span {
+    background: #de9a44;
+    margin: 3px;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+}
+
+#slideToggler {
+    text-align: center;
+}
+
+#fadeInFadeOut {
+    text-align: center;
+}
+
+#fadeInFadeOut span:nth-child(1) {
+    margin: 3px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: #f00;
+}
+
+#fadeInFadeOut span:nth-child(2) {
+    margin: 3px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: #0f0;
+}
+
+#fadeInFadeOut span:nth-child(3) {
+    margin: 3px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: #00f;
+}

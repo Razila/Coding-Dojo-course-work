@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pacman Demo</title>
+    <style type="text/css">
+        body{
+            background-color: black;
+        }
+    div.row div{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+    }
+    div.brick{
+        background-color: blue;
+    }
+    div.coin{
+        height: 15px;
+        width: 15px;
+        background-image: url("32-done.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div.empty{
+
+    }
+    div.pacman{
+        background-size: cover;
+        background-image: url("pacman.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+    </div>
+    <div class="row">
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="pacman"></div>
+        <div class="coin"></div>
+        <div class="brick"></div>
+        <div class="coin"></div>
+        <div class="empty"></div>
+        <div class="coin"></div>
+        <div class="brick"></div>
+    </div>
+    <div class="row">
+        <div class="brick"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="brick"></div>
+    </div>
+    <div class="row">
+        <div class="brick"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="empty"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="brick"></div>
+    </div>
+    <div class="row">
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+        <div class="brick"></div>
+    </div>
+
+    <script>
+        var PacWorld = [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            ]
+
+            function displayPacWorld(){
+                var output = '';
+
+                for(var i=0; i<PacWorld.length; i++){
+                    output += "\n<div class='row'>"
+
+                    for(var j=0; j<PacWorld[i].length; j++){
+
+                        if(PacWorld[i][j]==1){
+                            output += "\n\t<div class='brick'></div>"
+                        }
+                        else if(PacWorld[i][j]==0){
+                            output += "\n\t<div class='coin'></div>"
+                        }
+                        else if(PacWorld[i][j]==2){
+                            output += "\n\t<div class='empty'></div>"
+                        }
+                        
+                    }
+                    output += "\n</div>"
+                }
+                console.log(output);
+                document.getElementByID('PacWorld').innerHTML=output;
+            }
+    </script>
+</body>
+
+</html>

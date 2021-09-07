@@ -1,0 +1,14 @@
+$ git init
+$ mkdir test
+$ touch index.html
+$ touch style.css
+$ git add git
+$ git commit -m "created new repo"
+$ git add index.html
+$ git commit -m "update html"
+$ git add style.css
+$ git log
+$ git revert -n df6fb334de69de2102a14184bf452e38e4e627c7
+$ git add index.html
+$ git commit -m "update html with css link"
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Raz's Musings</title>
+        <meta name="description" content="I have lots of interesting things to 
+                    say and hot takes on controversial issues; buy my stuff!">
+    </head>
+    <h1>Raz's Musings</h1>
+    <img src="bateman.jpg" alt="A picture of me">
+    <body>
+        <p>Hi I'm Raz and this is my blog where I will be going out of my way to piss people off so that I can sell t-shirts.</p>
+        <p>I have been called insufferable, but that is okay because I do not know what that word means.</p>
+        <h3>Five Highest Grossing Films of All Time</h3>
+        <table> 
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Lifetime Gross</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Avatar</td>
+                    <td>$2,847,246,203</td>
+                    <td> 2009 </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Avengers: Endgame</td>
+                    <td>$2,797,501,328	</td>
+                    <td> 2019 </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Titanic</td>
+                    <td>$2,201,647,264</td>
+                    <td> 1997 </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Star Wars: Episode VII - The Force Awakens</td>
+                    <td>$2,069,521,700</td>
+                    <td> 2015 </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Avengers: Infinity War</td>
+                    <td>$2,048,359,754</td>
+                    <td> 2018 </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>I still cannot believe Titanic cracked the top 5, it is so awful.</p>
+        <p>Then again you can see a real theme here: movies make way more money if couples and kids want to go.</p>
+        <a href="https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW">You can check out the rest of the list here!</a>
+        <h3>There are 5 things, in no particular order, that I can't stand in a person:</h3>
+        <ul>
+            <li>fidget spinners</li>
+            <li>human flesh</li>
+            <li>any animal meat from pet-animals</li>
+            <li>a tent</li>
+        </ul>
+        <form action="process.php" method="post">
+            <h3>Here is a short survey for you to take.</h3>
+            <p>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </p>
+
+
+            <h4>Select your species:</h4>
+            <label for="marsupial">marsupial</label>
+            <input type="radio" id="marsupial" name="species" value="marsupial">
+            <label for="huge ackman">huge ackman</label>
+            <input type="radio" id="huge ackman" name="species" value="huge ackman">
+            <label for="decline">Prefer not to say because it is not a protected species</label>
+            <input type="radio" id="decline" name="species" value="decline">
+            
+            <h4>Freddie Mercury</h4>
+            <label for="foods">What was Freddie Mercury's favorite food?:</label>
+            <select name="foods" id="foods">
+                <option value="Pick an option">Pick an option</option>
+                <option value="hot cheetos">hot cheetos</option>
+                <option value="Paul McCartney's ostrich lasagna">Paul McCartney's ostrich lasagna</option>
+                <option value="an empty mug">an empty mug</option>
+                <option value="banana slugs">banana slugs</option>
+            </select>
+
+            <h4>What are dreams made of?</h4>
+            <p>
+                <label for="Twix">Twix</label>
+                <input type="checkbox" id="Twix" name="dreams" value="Twix">
+                <label for="the cousin of death">the cousin of death</label>
+                <input type="checkbox" id="the cousin of death" name="dreams" value="the cousin of death">
+            </p>
+            <p>
+                <label for="these">these</label>
+                <input type="checkbox" id="these" name="dreams" value="these">
+                <label for="flex-tape">flex-tape</label>
+                <input type="checkbox" id="flex-tape" name="dreams" value="flex-tape">
+            </p>
+            <input type="submit" value="Poke me">
+        </form>
+    </body>
+</html>

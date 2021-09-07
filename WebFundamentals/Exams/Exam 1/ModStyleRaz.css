@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#pageContainer {
+    width: 1000px;
+    height: 1140px;
+    background-color: black;
+}
+
+.topBanner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    width: 990px;
+    height: 140px;
+    background-color: #1a1a1a;
+}
+
+#logo {
+    padding: 15px;
+    margin: 15px;
+}
+
+#contact {
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 10px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.buttonStrip {
+    display: flex;
+    width: 500px;
+    line-height: 26px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    padding: 5px;
+    width: 980px;
+    height: 35px;
+    background-image: linear-gradient( #515151, #3f3f3f,#242222);
+    
+}
+
+.btnBreak {
+    height: 25px;
+    width: 3px;
+    margin-bottom: 5px;
+    border-right: 3px groove #6e696944;    
+}
+
+
+.mainDisplay {
+    display: flex;
+    width: 1000px;
+    height: 350px;
+    
+}
+
+#mainIMG {
+    margin-left: 5px;
+    width: 990px;
+    height: 350px;
+    border-bottom: 5px solid #3b3b3b ;
+}
+
+.skillRibbon {
+    display: flex;
+    margin-left: 5px;
+    width: 990px;
+    height: 150px;
+    background-color: #1a1a1a;
+}
+
+.skillDescrip {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 310px;
+    height: 100px;
+}
+
+
+.blurbHeader {
+    color: #eb7e2c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.blurb {
+    height:50px;
+    width: 150px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 11px;
+}
+
+.blurb2 {
+    height:50px;
+    width: 480px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 11px;
+}
+
+
+.blurb3 {
+    height:50px;
+    width: 210px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 11px;
+}
+
+
+.skillIMG {
+    margin-top: 47px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.adSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    width: 990px;
+    height: 140px;
+    background: repeating-linear-gradient(-50deg,#151515,#151515 2px,#050505 2px,#050505 5px);
+}
+
+.adPitch {
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 450px;
+}
+
+.adScrip{
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+#buyButton {
+        width: 100px;
+        height: 30px;
+        text-align:center;
+        line-height: 30px;
+        margin-top: 50px;
+        margin-left: 380px;
+        padding: 4px;
+        color: #dee4ea;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(#f1944e, #ef802d);
+        border-radius: 7px;
+}
+
+.portfolioProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 310px;
+    background-color: #1a1a1a;
+}
+
+#projectsBanner {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 990px;
+    height: 30px;
+}
+
+.viewAll {
+    margin-right: 15px;
+    margin-top: 8px;
+    color: #eb7e2c;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.portfolio{
+    margin-left: 5px;
+    margin-top: 8px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight:lighter;
+}
+
+.projectsContent {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25;
+    padding-bottom: 5px;
+    width: 250px;
+}
+
+.projectIMG {
+    height: 140px;
+    width: 220px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border: 3px solid #3b3b3b;
+}
+
+.projectsDescriptions {
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: left;
+    display: block;
+    font-size: 12px;
+}
+
+.bottom{
+    margin-top: 17px;
+    margin-left: 940px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: #515151;
+}

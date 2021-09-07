@@ -1,0 +1,24 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    display: flex;
+    width: 1000;
+    height:600px;
+    background-color:rgb(67, 67, 214);
+    flex-direction: column;
+}
+
+h1{
+    padding: 10px;
+    background-color: red;   
+    width: 960px;
+    height: 60px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+

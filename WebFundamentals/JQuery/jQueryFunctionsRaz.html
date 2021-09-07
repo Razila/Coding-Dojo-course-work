@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="" content="">
+    <link rel="stylesheet" type="text/css" href="jQueryFunctionsRaz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".hideDiv p").click(function () {
+                $(this).hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#showr").click(function () {
+                $("#showHide p").first().show("fast", function showNext() {
+                    $(this).next("#showHide p").show("fast", showNext);
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#hidr").click(function () {
+                $("#showHide p").hide(1000);
+            });
+            $("#toggling button").click(function () {
+                $("#toggling p").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $("#slideUpSlideDown button").click(function () {
+                if ($("#slideUpSlideDown span").first().is(":hidden")) {
+                    $("#slideUpSlideDown span").slideDown("slow");
+                }
+                else {
+                    $("#slideUpSlideDown span").slideUp();
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $("#slideToggler button").click(function () {
+                $("#slideToggler p").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#fadeInFadeOut span").hide();
+            $("#fadeInFadeOut button").click(function () {
+                if ($("#fadeInFadeOut span").first().is(":hidden")) {
+                    $("#fadeInFadeOut span:nth-child(1)").fadeIn("slow");
+                    console.log("hey")
+                }
+                else {
+                    $("#fadeInFadeOut span").fadeOut("slow");
+                }// your jquery codes here
+            });// your jquery codes here
+        });
+
+        $(document).ready(function () {
+            $("#addingClass button").click(function () {
+                $("#addingClass p").last().addClass( [ ".selected", ".highlight" ] );
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="hideDiv">
+        <h1>Hide</h1>
+        <br>
+        <h3>Click the chartreuse highlighted paragraphs to make them hidden!</h3>
+        <br>
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+        <p>Yet one more Paragraph</p>
+    </div>
+    <hr>
+    <br>
+    <div id="showHide">
+        <h1>ShowAndHide</h1>
+        <br>
+        <h3>Click the buttons to show or hide the text!</h3>
+        <br>
+        <button id="showr">Show</button>
+        <button id="hidr">Hide</button>
+        <p>waddup,</p>
+        <p>how</p>
+        <p>are</p>
+        <p>you?</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="toggling">
+        <h1>TogglingOnOff</h1>
+        <br>
+        <h3>Click the button to hide or reveal the text!</h3>
+        <br>
+        <button>Toggle</button>
+        <p>Hello</p>
+        <p style="display: none">Good Bye</p>
+    </div>
+    <br>
+    <hr>
+    <div id="slideUpSlideDown">
+        <h1>SlideUpDown</h1>
+        <br>
+        <h3>Click to slide blocks up or down!</h3>
+        <br>
+        <button>Slider</button>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <br>
+    <hr>
+    <div id="slideToggler">
+        <h1>SlideToggler</h1>
+        <br>
+        <h3>Click to slide reveal or hide!</h3>
+        <br>
+        <button>Toggle</button>
+        <p>
+            This is the paragraph to end all paragraphs. You
+            should feel <em>lucky</em> to have seen such a paragraph in
+            your life. Congratulations!
+        </p>
+    </div>
+    <br>
+    <hr>
+    <div id="fadeInFadeOut">
+        <h1>FadeInAndOut</h1>
+        <br>
+        <h3>Click to fade in reveal or hide!</h3>
+        <br>
+        <button>Click here...</button>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <br>
+    <hr>
+    <div id="addingClass">
+        <h1>AddaClass</h1>
+        <br>
+        <h3>Click to add CSS selector classes!</h3>
+        <br>
+        <button>Click here...</button>
+        <p>Hello</p>
+        <p>and</p>
+        <p>Goodbye</p>
+    </div>
+</body>
+
+</html>

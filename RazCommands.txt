@@ -1,0 +1,3 @@
+less T-diagrams1.txt
+locate Ila_Rassul_JS_Tinkering.js
+grep "var" figherPlane1-Raz.html

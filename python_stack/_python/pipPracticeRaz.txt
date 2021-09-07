@@ -1,0 +1,152 @@
+pip list
+
+---------- -------
+pip        20.2.3
+setuptools 49.2.1
+
+This showed the packages that are installed on the virtual environment (py3Env)
+
+deactivate 
+deactivated the virtual ENV; (py3Env) removed from the cmd prefix, and now only displayed line as a directory
+that was from my local machine/C:\
+
+pip3 list
+
+C:\Users\rassul.ila\Documents\CodingDojo\python_stack\my_environments>pip3 list
+Package                   Version
+------------------------- ---------
+altgraph                  0.17
+argon2-cffi               20.1.0
+async-generator           1.10
+attrs                     20.3.0
+backcall                  0.2.0
+bleach                    3.2.1
+cffi                      1.14.4
+click                     7.1.2
+colorama                  0.4.4
+commonmark                0.9.1
+DateTime                  4.3
+decorator                 4.4.2
+defusedxml                0.6.0
+entrypoints               0.3
+Flask                     1.1.2
+future                    0.18.2
+ipykernel                 5.4.2
+ipython                   7.19.0
+ipython-genutils          0.2.0
+itsdangerous              1.1.0
+jedi                      0.18.0
+Jinja2                    2.11.2
+jsonschema                3.2.0
+jupyter-client            6.1.7
+jupyter-core              4.7.0
+jupyterlab-pygments       0.1.2
+MarkupSafe                1.1.1
+mistune                   0.8.4
+nbclient                  0.5.1
+nbconvert                 6.0.7
+nbformat                  5.0.8
+nest-asyncio              1.4.3
+notebook                  6.1.6
+numpy                     1.19.4
+packaging                 20.8
+pandas                    1.1.5
+pandocfilters             1.4.3
+parso                     0.8.1
+pefile                    2019.4.18
+pickleshare               0.7.5
+pip                       21.0.1
+prometheus-client         0.9.0
+prompt-toolkit            3.0.8
+pycparser                 2.20
+Pygments                  2.7.3
+pyinstaller               4.1
+pyinstaller-hooks-contrib 2020.10
+pyparsing                 2.4.7
+pyrsistent                0.17.3
+python-dateutil           2.8.1
+pytz                      2020.4
+pywin32                   300
+pywin32-ctypes            0.2.0
+pywinpty                  0.5.7
+pyzmq                     20.0.0
+rich                      9.6.0
+Send2Trash                1.5.0
+setuptools                49.2.1
+six                       1.15.0
+tabulate                  0.8.7
+terminado                 0.9.1
+testpath                  0.4.4
+tornado                   6.1
+traitlets                 5.0.5
+typing-extensions         3.7.4.3
+wcwidth                   0.2.5
+webencodings              0.5.1
+Werkzeug                  1.0.1
+zope.interface            5.2.0
+
+This is actually the full list of packages I have installed directly on my machine either directly or dependancies of other packages...
+
+pip install Django==2.2 
+
+I actually just went with install Django instead of a version, so that it would install the most recent Django version; the following
+was displayed to show what files were needed for this package
+
+Collecting Django
+  Downloading Django-3.2.6-py3-none-any.whl (7.9 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 7.9 MB 6.4 MB/s
+Collecting asgiref<4,>=3.3.2
+  Downloading asgiref-3.4.1-py3-none-any.whl (25 kB)
+Collecting pytz
+  Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 510 kB ...
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.1-py3-none-any.whl (42 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 42 kB 393 kB/s
+Installing collected packages: asgiref, pytz, sqlparse, Django
+Successfully installed Django-3.2.6 asgiref-3.4.1 pytz-2021.1 sqlparse-0.4.1
+WARNING: You are using pip version 20.2.3; however, version 21.2.2 is available.
+You should consider upgrading via the 'c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+
+reran pip install Django, and recieved the following
+(py3Env) C:\Users\rassul.ila\Documents\CodingDojo\python_stack\my_environments>pip install Django
+Requirement already satisfied: Django in c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\lib\site-packages (3.2.6)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\lib\site-packages (from Django) (0.4.1)
+Requirement already satisfied: asgiref<4,>=3.3.2 in c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\lib\site-packages (from Django) (3.4.1)
+Requirement already satisfied: pytz in c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\lib\site-packages (from Django) (2021.1)
+WARNING: You are using pip version 20.2.3; however, version 21.2.2 is available.
+You should consider upgrading via the 'c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\scripts\python.exe -m pip install --upgrade pip' command.
+
+
+
+C:\Users\rassul.ila\Documents\CodingDojo\python_stack\my_environments>pip freeze
+difference between freeze and list is that list shows the package and version in a more tabular format
+freeze shows the package and version, corresponding the two with the operator '==' and no headers indicating that one is the package and the other is the version
+
+"First cd into your Desktop directory (cd ~/Desktop), then run this command: pip freeze > requirements.txt. What do you see when you ls? What's inside this file?"
+I was not able to get this to work in any meaningful way; it looks like it was written as a bash command, but I was not able to find the corresponding windows-CMD
+command to do whatever it was supposed to...
+
+pip uninstall Django
+
+showed the uninstallation of Django and the corresponding packages
+(py3Env) C:\Users\rassul.ila\Desktop>pip uninstall Django
+Found existing installation: Django 3.2.6
+Uninstalling Django-3.2.6:
+  Would remove:
+    c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\lib\site-packages\django-3.2.6.dist-info\*
+    c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\lib\site-packages\django\*
+    c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\scripts\django-admin.exe
+    c:\users\rassul.ila\documents\codingdojo\python_stack\my_environments\py3env\scripts\django-admin.py
+Proceed (y/n)? y
+  Successfully uninstalled Django-3.2.6
+
+pip show Django
+
+confirmed that Django was in fact, not installed
+
+(py3Env) C:\Users\rassul.ila\Desktop>pip show Django
+WARNING: Package(s) not found: Django
+
+
+

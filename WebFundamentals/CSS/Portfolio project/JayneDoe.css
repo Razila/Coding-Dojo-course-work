@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 870px;
+    height: 960px;
+    background-image: linear-gradient( rgb(38,21,27),rgb(111,89,100), rgb(38,21,27))
+}
+
+#header{
+    width: 870px;
+    height: 80px;
+    background-color: rgb(249,249,249);
+}
+
+.bannerText1{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    font-size:xx-large;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.bannerText2{
+    margin-left: 270px;
+    display: inline-block;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top{
+    display: flex;
+    padding: 5px;
+    width: 900px;
+    height: 280px;
+}
+
+#profileIMG{
+    border: 5px solid rgb(192, 192, 192);
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 350px;
+    height: 250px;
+}
+
+.about{
+    margin-left: 28px;
+    margin-top: 10px;
+    width: 430px;
+    height: 260px;
+    background-image: linear-gradient(to right, rgb(246,243,246),rgb(220,206,219));
+}
+
+.head1{
+    width: 430px;
+    height: 40px;
+    color:ivory;
+    text-indent: 10px;
+    background-image: linear-gradient(rgb(175,165,163),rgb(140,132,137), rgb(175,165,163));
+}
+
+.head2{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    color:ivory;
+    text-indent: 10px;
+    background-image: linear-gradient(rgb(175,165,163),rgb(140,132,137), rgb(175,165,163));
+}
+
+.head3{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 30px;
+    color:ivory;
+    text-indent: 10px;
+    background-image: linear-gradient(rgb(175,165,163),rgb(140,132,137), rgb(175,165,163));
+}
+
+.head1Text{
+    display: inline-block;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+    font-size:x-large;
+
+}
+
+.aboutText{
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 5px;
+    font-size: medium;
+}
+
+
+.aboutLink{
+    margin: 10px;
+    display: inline-block;
+}
+
+.midBottom{
+    display:inline-block;
+    width: 900px;
+    height: 800px;
+}
+
+.middle{
+    display: flex;
+    padding: 5px;
+    width: 900px;
+    height: 330px;
+}
+
+.midSection{
+    margin: 10px;
+    width: 260px;
+    min-height: 340px;
+    background-image: linear-gradient(to right, rgb(246,243,246),rgb(220,206,219));
+}
+
+.midSecTitle{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midSecText{
+    padding: 8px;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midIMG{
+    width: 260px;
+    height: 130px;
+}
+
+.bottSecTitle{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottSecText{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+    display: flex;
+    padding: 5px;
+    width: 900px;
+    min-height: 190px;
+}
+
+.bottSection{
+    margin: 10px;
+    display: inline-block;
+    width: 260px;
+    height: 170px;
+    background-image: linear-gradient(to right, rgb(246,243,246),rgb(220,206,219));
+}
+
+.bottList{
+    margin-left: 5px;
+    display: flex;
+    list-style-type: none;
+}
+
+.bottIMG{
+    padding: 2px;
+    margin: 5.5px;
+    width: 31.5px;
+    height: 31.5px;
+}
+
+.buttonSpace{
+    display: flex;
+    align-content: center;
+    width: 260px;
+    height: 25px;
+}
+
+.buttons{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 55px;
+    min-height: 15px;
+    font-size: 12px;
+    color:ivory;
+    background-color: rgb(64,125,97);
+    border-radius: 7px;
+    box-shadow: 3px 2px 4px 1px #888888;
+}
+
+.contactSect{
+    margin-top: 10px;
+    background-color: white;
+    width: 900px;
+    height: 80px;
+}
+
+.contacts1{
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 260px;
+    height: 20px;
+}
+
+.contactList{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 4px;
+    margin-left: 250px;
+    margin-top: 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.contactIMG{
+    margin-top: 5px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}

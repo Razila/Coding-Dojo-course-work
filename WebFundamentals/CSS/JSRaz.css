@@ -1,0 +1,101 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    padding: 5px;
+    display: flex;
+    width: 1000;
+    height: 990px;
+    background-color: rgb(67, 67, 214);
+    flex-direction: column;
+}
+
+h1{
+    padding: 10px;
+    background-color: red;   
+    width: 1020px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(186, 206, 223);
+}
+
+h2{
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(186, 206, 223);
+}
+
+.footer{
+    margin: 5px;
+    background-color: grey;
+    height: 50px;
+    width: 1010px;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(186, 206, 223);
+}
+
+#navigation{
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    height: 320px;
+    width: 210px;
+    background-color: rgb(43, 147, 179);
+    border-radius: 10px;
+}
+
+#mainContents{
+    margin-top: 20px;
+    height: 650px;
+    width: 1035px;
+    display: flex;
+    padding: 15px;
+    background-color: blue;
+    justify-content: space-around;
+}
+
+#main{
+    height: 600px;
+    width: 1010px;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 36);
+}
+
+p{
+    margin: 10px;
+    color: rgb(186, 206, 223);
+}
+
+.textColor{
+    color: rgb(76, 19, 233);
+}
+
+.body-list{
+    margin-right: 20px;
+    margin-left: 40px;
+    position:relative;
+    color: #ffffff;
+}
+
+.nav-home{
+    margin-left: -20px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-link{
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.InnerNav-link{
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}

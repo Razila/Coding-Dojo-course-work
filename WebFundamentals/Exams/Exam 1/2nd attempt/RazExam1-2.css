@@ -1,0 +1,335 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+#pageContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 1000px;
+    height: 1250px;
+}
+
+.topContainer {
+    display:flex;
+    flex-direction: column;
+    width: 900px;
+    height: 520px;
+}
+
+#buttonIMG{
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.buttonBar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 795px;
+    height: 50px;
+    list-style-type: none;
+    background-image: linear-gradient( #f2f2f2,#eaeaea, #dfdfdf);
+    border: 2px solid #ececec;
+    border-radius: 0px 5px 5px 0px;
+    color: #4b4b49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.barButtons{
+    height: 55px;
+    line-height: 50px;
+    margin-right: 20px;
+
+}
+
+.btnBreak {
+    height: 50px;
+    width: 3px;
+    margin-right: 15px;
+    border-right: 2px #ffffff73;
+    border-right-style: groove;    
+}
+
+
+
+
+.searchField {
+    width: 170px;
+    height: 25px;
+    border: 2px solid;
+    margin-left: 95px;
+    margin-top: 11px;
+    margin-bottom: 10px; 
+    background-image: url("search.png");
+    background-position: 8px;
+    background-repeat: no-repeat;
+    background-size: 15px; 
+    font-size: 13px;
+    color: #f8f8f7;
+    text-align: center;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.buttonBar h3{
+    line-height: 25px;
+    margin-right: 30px;
+    display:flex;
+    justify-content: center;
+    width: 26px;
+    height: 25px;
+    text-align:center;
+    color: #f8fefe;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-image: linear-gradient(#5592be, #4f8ab1, #4981a6, #427899);
+    border-radius: 0px 12px 12px 0px;
+}
+
+#mainSlideIMG{
+    width: 900px;
+    height: 410px;
+    margin-top: 20px;
+}
+
+.slideBar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 900px;
+    height: 35px;
+    list-style-type: none;
+    background-image: linear-gradient( #4d4d4b,#464646, #3f3f3f);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.slideButtons{
+    line-height: 20px;
+    height: 20px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: smaller;
+    color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.slideButtonSpan{
+    color: #85b6d0;
+    
+}
+
+.slideBreak {
+    line-height: 25px;
+    height: 20px;
+    transform: rotate(25deg);
+    padding-right: 10px;
+    margin-right: 5px;
+    color:#595959;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+#midContainer{
+    width: 897px;
+    height: 400px;
+    margin-top: 10px;
+    background-image: linear-gradient(#fcfefd, #fcfefd, #f5f4f2, #f2f2f2);
+    border: 2px solid #ececec;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#Center{
+    display: inline-block;
+    width: 900px;
+    height: 250px;
+    border-bottom: 2px solid #ececec;
+}
+
+#Center span{
+    display: inline-block;
+    height: 210px;
+    margin-top: 20px;
+    border-right: 2px solid #ececec;
+}
+
+#midTop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+    height: 95px;
+    border-bottom: 2px solid #ececec;
+}
+
+#midTop h1{
+    color: #c2c2c2;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#midTop h3 span{
+    font-size: small;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+#midBreak{
+    font-size: 50px;
+    color: #f3f3f3;
+    margin-left: 15px;
+    padding-left: 15px
+}
+
+#midTop h3{
+        display:flex;
+        justify-content: space-between;
+        height: 20px;
+        width: 220px;
+        text-align:center;
+        line-height: 20px;
+        margin: 20px;
+        margin-left: 45px;
+        padding: 10px;
+        padding-left: 20px;
+        color: #dee4ea;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        background-image: linear-gradient(#5592be, #4f8ab1, #4981a6, #427899);
+        border-radius: 5px;
+}
+
+.midCenter{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 6px;
+    padding-left: 5px;
+    margin-left: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.midCenter h3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midCenter p{
+    font-size: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Center h4{
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    width: 80px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 20px;
+    margin-top: -1px;
+    line-height: 20px;
+    text-align: center;
+    color: #e6fbfe;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background-image: linear-gradient(#5db2f2, #62abe7, #5daae4, #5aa3da);
+    border-radius: 3px;
+}
+
+.midIcons{
+    height:22px;
+    width: 22px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.previewIMG1{
+    height: 110px;
+    width: 180px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.previewIMG2{
+    height: 100px;
+    width: 150px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+
+#bottmContainer {
+    width: 900px;
+    height: 210px;
+    padding: 10px;
+    border-bottom: solid #efefef;
+}
+
+
+.bottomLists{
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: #959192;
+    list-style-type: none;
+}
+
+.bottomLists li:first-of-type{
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+hr {
+    height:2px;
+    width:125px;
+    margin: 12px;
+    text-align: left;
+    border-width:0;
+    color:gray;
+    background-color:#efefef;
+    margin-left:0
+}
+
+#contacts{
+    display: flex;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    color: #959192;
+    list-style-type: none;
+}
+
+#contacts li{
+    padding: 3px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="" content="">
+    <link rel="stylesheet" type="text/css" href="disappearingTigers.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('img').click(function(){
+                $(this).fadeOut();
+            });
+            $('button').click(function(){
+                $('img').fadeIn();
+            });
+            //jQuery goes here
+        });
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <img class="lg-1 sm-0" src="tiger1.jpg" alt="picture of a tiger">
+        <img class="lg-1 sm-0" src="tiger2.jpg" alt="picture of a tiger">
+        <img class="lg-1 sm-0" src="tiger3.jpg" alt="picture of a tiger">
+        <img class="lg-1 sm-0" src="tiger4.jpg" alt="picture of a tiger">
+    </div>
+    <div>
+        <img class="lg-1 sm-0" src="tiger5.jpg" alt="picture of a tiger">
+        <img class="lg-1 sm-0" src="tiger6.jpg" alt="picture of a tiger">
+        <img class="lg-1 sm-0" src="tiger7.jpg" alt="picture of a tiger">
+        <img class="lg-1 sm-0" src="tiger8.jpg" alt="picture of a tiger">
+    </div>
+    <div id="thirdRow">
+        <button class="button button1">Restore</button>
+    </div>
+</body>
+
+</html>

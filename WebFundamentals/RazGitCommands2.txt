@@ -1,0 +1,15 @@
+$ git init
+$ mkdir test
+$ touch index.html
+$ touch style.css
+$ git add git
+$ git remote add origin https://github.com/Razila/basic_repo
+$ git add indexRaz.html
+$ git add styleRaz.css
+$ git commit -m "created index and CSS files and added first exam content"
+$ git push -u origin master
+$ git add indexRaz.html
+$ git add styleRaz.css
+$ git commit -m "added wireframe back to CSS, added another button break in the navbar"
+$ git push -u origin master
+

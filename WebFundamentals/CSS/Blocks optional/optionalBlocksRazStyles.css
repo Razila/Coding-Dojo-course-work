@@ -1,0 +1,42 @@
+/*CSS reset settings here*/
+    #wrapper{
+        display: inline-block;
+        width: 1500;
+        height:1050px;
+        padding: 15px;
+        background-color:palegoldenrod;
+    }
+    #header{
+        width: 1035px;
+        height: 150px;
+        margin: 5px;
+    }
+    #h1{
+        text-align: center;
+        font-size: 45px;
+        margin-top: 35px;
+        margin-left: 27px;
+    
+    }
+    #main_content{
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        height: 825px;
+        width: 1025px;
+    }
+    .subcontents{
+        display: inline-block;
+        border: 4px solid black;
+        margin: 1px;
+        height: 187px;
+        width: 187px;
+        background-color: white;
+    }
+
+    .subcontents2{
+        margin-top: 35px;
+        height: 100px;
+        width: 150px;
+        background-color: white;
+        }

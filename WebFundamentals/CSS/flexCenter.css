@@ -1,0 +1,20 @@
+/*CSS reset settings here*/
+.center-box {
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-item {
+    width: 50px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+.center-image {
+    width: 50px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
